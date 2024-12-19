@@ -27,8 +27,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI-Powered Code Review Tool",
-      description: "Improving code quality using AI-based suggestions and analysis.",
+      title: "My Current Stack",
+      description: "A Jack of all Trades",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",

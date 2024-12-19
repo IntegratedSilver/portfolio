@@ -5,17 +5,20 @@ const MagicButton = ({
   title,
   icon,
   position,
-  // handleClick,
+  handleClick,
   otherClasses,
 }: {
   title: string;
   icon: ReactNode;
   position: string;
-  // handleClick?: () => void; ddd
+  handleClick?: () => void;
   otherClasses?: string;
 }) => {
   return (
-    <button className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#405161] hover:text-white dark:text-neutral-200 transition duration-200">
+    <button
+      onClick={handleClick}
+      className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#405161] hover:text-white dark:text-neutral-200 transition duration-200"
+    >
       <span
         className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg px-7 text-sm font-medium text-white gap-2 ${otherClasses}`}
       >
@@ -26,6 +29,5 @@ const MagicButton = ({
     </button>
   );
 };
-// commddd
 
 export default MagicButton;
