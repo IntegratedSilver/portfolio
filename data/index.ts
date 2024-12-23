@@ -7,18 +7,18 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "AI Chatbot for Customer Support",
-      description: "Enhancing client communication with AI-driven chat automation.",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      title: "",
+      description: "",
+      className: "lg:col-span-3 md:col-span-6 space-y-4 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/z1.svg",
+      img: "/spc.svg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "Real-Time Weather Dashboard",
-      description: "Displaying live weather updates and forecasts globally.",
+      title: "My name is Alejandro De La Cruz-Rubio",
+      description: "Who am I?",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -37,8 +37,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Interactive Financial Dashboard",
-      description: "Visualize and manage your financial data effectively.",
+      title: "Communication, Problem-solving, and Creative Thinking",
+      description: "My Three Key Skills",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -48,9 +48,9 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Fitness Tracker with AI Analytics",
-      description: "Track workouts and get personalized AI-driven insights.",
-      className: "md:col-span-3 md:row-span-2",
+      title: "Backend or Frontend? Why not both! I can flex if needed ",
+      description: "",
+      className: "md:col-span-3 md:row-span-2 space-y-4",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
@@ -58,8 +58,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "E-Learning Platform for Developers",
-      description: "Access coding tutorials, challenges, and mentorship in one place.",
+      title: "Click Here to Copy My Email!",
+      description: "I'm always one click away, ready and waiting for whats next",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -72,7 +72,7 @@ export const navItems = [
     {
       id: 1,
       title: "Business Redevelopment Website",
-      des: "Redesigned a local business, Greater Valley Landscaping & Concrete, INC's website using HTML, CSS, and Bootstrap. ",
+      des: "Redesigned a local business, Greater Valley Landscaping & Concrete, INC's website. ",
       img: "/pgct1.svg",
       iconLists: ["/HTML5.svg", "/Bootstrap.svg", "/CSS3.svg"],
       link: "https://business-redevelopment-main.vercel.app/",
@@ -95,11 +95,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "3D Animated E-Commerce Site",
-      des: "A unique e-commerce experience featuring interactive 3D product displays and smooth animations.",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Puppy Restaurant",
+      des: "Our furry companions must eat too. Where better than the Puppy Restaurant.",
+      img: "/pgct4.svg",
+      iconLists: ["/HTML5.svg", "/Bootstrap.svg", "/CSS3.svg",],
+      link: "https://puppy-restaurant-main.vercel.app/index.html",
     },
   ];
   

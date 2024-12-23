@@ -121,7 +121,7 @@ export const BentoGridItem = ({
                 {["React. js", "Next. js", "Typescript"].map((item) => (
                   <span
                     key={item}
-                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-600 "
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-500 "
                   >
                     {item}
                   </span>
@@ -131,7 +131,7 @@ export const BentoGridItem = ({
                 {["C#", "Bootstrap", "MySQL"].map((item) => (
                   <span
                     key={item}
-                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-600 "
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-500 "
                   >
                     {item}
                   </span>
@@ -141,7 +141,7 @@ export const BentoGridItem = ({
                 {["HTML5", "CSS", "JavaScript"].map((item) => (
                   <span
                     key={item}
-                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-600 "
+                    className="py-3 lg:py-4 lg:px-5 px-3 mt-3 text-sx lg:text-base opacity-50 lg: opacity-100 rounded-xl text-center bg-slate-500 "
                   >
                     {item}
                   </span>
