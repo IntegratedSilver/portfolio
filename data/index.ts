@@ -2,7 +2,6 @@ export const navItems = [
     { name: "Home", link: "#Home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   export const gridItems = [
@@ -72,27 +71,27 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Interactive Galaxy Tour",
-      des: "Embark on a visually stunning journey through galaxies with this immersive 3D simulation using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Business Redevelopment Website",
+      des: "Redesigned a local business, Greater Valley Landscaping & Concrete, INC's website using HTML, CSS, and Bootstrap. ",
+      img: "/pgct1.svg",
+      iconLists: ["/HTML5.svg", "/Bootstrap.svg", "/CSS3.svg"],
+      link: "https://business-redevelopment-main.vercel.app/",
     },
     {
       id: 2,
-      title: "NexMeet - Virtual Meeting Platform",
-      des: "A streamlined virtual meeting solution with real-time chat, screen sharing, and recordings.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Weather App",
+      des: "A simple weather app that tells you the time and current weather of the location of your choosing. ",
+      img: "/pgct2.svg",
+      iconLists: ["/HTML5.svg", "/js.svg", "/CSS3.svg"],
+      link: "https://weather-app-six-beta-67.vercel.app/",
     },
     {
       id: 3,
-      title: "AI-Powered Design Tool",
-      des: "A SaaS platform to create beautiful designs with AI-assisted tools and integrated payment systems.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Game App",
+      des: "A game app using RAWG.io's API, and allows you to search up any game, watch trailers, and view screenshots.",
+      img: "/pgct3.svg",
+      iconLists: ["/re.svg", "/ts.svg"],
+      link: "https://gameapp-olive.vercel.app/",
     },
     {
       id: 4,
@@ -104,115 +103,5 @@ export const navItems = [
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:
-        "Working with {your name here} was transformative for our business. His creativity and technical expertise allowed us to launch a stunning platform on time and beyond expectations.",
-      name: "Emily Carter",
-      title: "CEO of Some company",
-    },
-    {
-      quote:
-        "{your name here} ability to translate complex requirements into user-friendly designs is unmatched. We achieved a 200% increase in user engagement after our project launch.",
-      name: "John Thompson",
-      title: "CTO of Some company"
-    },
-    {
-      quote:
-        "{your name here} brought fresh ideas and precise execution to our platform redesign. He was professional, proactive, and always delivered high-quality work on time.",
-      name: "Sarah Lee",
-      title: "Product Manager at Some company",
-    },
-    {
-      quote:
-        "{your name here} attention to detail and passion for excellence stood out during our collaboration. Our website now reflects our brand perfectly, thanks to his contributions.",
-      name: "Marcus Allen",
-      title: "Founder of Some company",
-    },
-    {
-      quote:
-        "{your name here} is a rare talent. His understanding of both design and development helped us create a seamless, visually appealing, and performant application.",
-      name: "Rachel Green",
-      title: "Director of Some company",
-    },
-  ];
+
   
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "Some company",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "Some company",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "Some company",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "Some company",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "Some company",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
-  ];
-  
-  export const socialMedia = [
-    {
-      id: 1,
-      img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
-      img: "/link.svg",
-    },
-  ];

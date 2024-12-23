@@ -1,5 +1,6 @@
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
+import { AppleCardsCarousel } from "@/components/ui/AppleCardsCarousel";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Hero from "@/components/ui/Hero";
 import { navItems } from "@/data";
@@ -18,6 +19,9 @@ export default function Home() {
       <Hero/>
       <Grid/>
       <RecentProjects/>
+      <AppleCardsCarousel/>
+      
+      
     </div>
    </main>
   );
